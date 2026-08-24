@@ -1,0 +1,84 @@
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* Área principal da página */
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+/* Imagem do Mario */
+img {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Títulos */
+h1 {
+    color: #b91c1c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #dc2626;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+/* Texto */
+p {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+/* Lista de jogos */
+ul {
+    background-color: white;
+    padding: 25px 25px 25px 45px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Ajuste para celular */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    img {
+        max-width: 260px;
+    }
+}
